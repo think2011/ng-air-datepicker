@@ -1,0 +1,17 @@
+{
+  "name": "ng-air-datepicker",
+  "main": "ng-air-datepicker.js",
+  "homepage": "https://github.com/think2011/ng-air-datepicker",
+  "authors": [
+    "think2011 <452125301@qq.com>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
