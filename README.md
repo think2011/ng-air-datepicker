@@ -1,5 +1,5 @@
 ## ng-air-datepicker
-对air-datepicker的angula封装
+wrap for [air-datepicker](https://github.com/t1m0n/air-datepicker)，[air-datepick](https://github.com/t1m0n/air-datepicker)的angular封装
 
 ## example
 
