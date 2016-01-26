@@ -47,7 +47,12 @@
             scope.$watch(function () {
                 return scope.options();
             }, function (newVal) {
-                $(element).datepicker(angular.extend(defaults, newVal));
+                if (!newVal) return false;
+
+                if (newVal.minDate) newVal.minDate = new Date(newVal.minDate);
+                if (newVal.maxDate) newVal.maxDate = new Date(newVal.maxDate);
+
+                $(element).data('datepicker').update(angular.extend(defaults, newVal));
             }, true);
 
             $(element).datepicker(angular.extend(defaults, scope.options()));
